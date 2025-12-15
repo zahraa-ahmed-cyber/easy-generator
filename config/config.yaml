@@ -1,0 +1,119 @@
+# Synthetic Data Generator Configuration
+# Domain: EdTech / Online Learning Platform - Course Reviews
+
+generation:
+  # Number of synthetic reviews to generate
+  target_samples: 400
+  
+
+  # Models from different providers
+  models:
+
+    - name: "llama-3.3-70b-versatile"
+      provider: "groq"
+      model: "llama-3.3-70b-versatile"
+      temperature: 0.8
+      max_tokens: 500
+      weight: 0.5
+      
+    - name: "gpt-oss-120b"
+      provider: "cerebras"
+      model: "gpt-oss-120b"
+      temperature: 0.8
+      max_tokens: 500
+      weight: 0.5
+  
+  # Rating distribution (should sum to 1.0)
+  rating_distribution:
+    5: 0.35  # 35% 5-star reviews
+    4: 0.30  # 30% 4-star reviews
+    3: 0.20  # 20% 3-star reviews
+    2: 0.10  # 10% 2-star reviews
+    1: 0.05  # 5% 1-star reviews
+  
+  # Review characteristics
+  characteristics:
+    min_length: 30  # Minimum words
+    max_length: 250  # Maximum words
+    
+    # Review style distribution
+    styles:
+      detailed: 0.40      # Comprehensive, analytical
+      concise: 0.30       # Brief, to the point
+      emotional: 0.20     # Personal, story-driven
+      technical: 0.10     # Focused on specifics
+    
+    # Include these elements (probability)
+    elements:
+      course_content: 0.9
+      instructor_quality: 0.7
+      platform_experience: 0.6
+      value_for_money: 0.5
+      assignments_projects: 0.6
+      certification: 0.4
+      community_support: 0.3
+
+# Quality Guardrails
+quality:
+  # Diversity thresholds
+  diversity:
+    min_vocabulary_diversity: 0.3  # Unique words / total words
+    max_semantic_similarity: 0.85  # Cosine similarity threshold
+    min_length_variance: 0.2       # Coefficient of variation
+  
+  # Bias detection
+  bias:
+    max_sentiment_skew: 0.15       # Allowed deviation from expected
+    check_keyword_overuse: true
+    max_keyword_frequency: 0.15    # Max proportion of reviews with same keyword
+  
+  # Domain realism
+  realism:
+    require_domain_keywords: true
+    min_domain_keywords: 2         # Per review
+    check_rating_sentiment_match: true
+    sentiment_rating_tolerance: 0.5  # Allowed mismatch
+  
+  # Auto-rejection settings
+  rejection:
+    max_regeneration_attempts: 3
+    enable_auto_regeneration: true
+
+# Real data comparison
+comparison:
+  real_reviews_path: "data/real_reviews.jsonl"
+  min_real_samples: 30
+  metrics:
+    - vocabulary_overlap
+    - sentiment_distribution
+    - length_distribution
+    - rating_distribution
+    - semantic_similarity
+
+# Output settings
+output:
+  dataset_path: "output/synthetic_reviews.csv"
+  quality_report_path: "output/quality_report.md"
+  rejected_samples_path: "output/rejected_samples.csv"
+  metrics_path: "output/metrics.json"
+  
+  # Logging
+  log_dir: "output/logs"
+  created_reviews_log: "output/logs/created_reviews.log"
+  failed_reviews_log: "output/logs/failed_reviews.log"
+  log_level: "INFO"
+  save_intermediate: true
+  track_generation_time: true
+
+# Course categories for variety
+course_categories:
+  - "Data Science & Machine Learning"
+  - "Web Development"
+  - "Mobile Development"
+  - "Cloud Computing & DevOps"
+  - "Cybersecurity"
+  - "Business & Management"
+  - "Design & Creative"
+  - "Language Learning"
+  - "Personal Development"
+  - "Marketing & Sales"

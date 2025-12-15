@@ -1,0 +1,292 @@
+{
+    "reviews": [
+      {
+        "reviewer_name": "Mikhail B",
+        "rating": 4,
+        "review_text": "I have completed this course in full and as a result, I am highly satisfued with how Professor Andrew Ng explains the materials. Thank you for this! However, I cannot understand, why after completing the course a part of studying materials are not accessible, even though I paid a sufficient price for the course. These unaccessible materials include Python programs which were used as a practice. Frankly, I find it unfair, since this practice would be extremely important to revise the materials while improving my skills in Machine Learning in the future. Moreover, a part of the montly fee was paid also for the practice materials. I may agree that these Python programs can be private, however, there should be ways to overcome this issue. Without the possibility to revise the code it will be much harder to create our own applications and programs.",
+        "date": "Nov 14, 2022"
+      },
+      {
+        "reviewer_name": "Sreekar",
+        "rating": 5,
+        "review_text": "One of the best courses out there on Machine Learning. Clean, Crisp and up to the point. Short but delivers all the things one need. More better than a classroom program. Saves one's time and energy.",
+        "date": "May 8, 2023"
+      },
+      {
+        "reviewer_name": "Stefan C",
+        "rating": 5,
+        "review_text": "tldr The course is a great introduction to ML for an audience already comfortable with mathematics and Python. For what it aims to achieve, I think it does a great job. /tldr The mathematics involved in the first course of this specialisation is not that difficult if you already have a solid foundation on calculus. Some functions used in the Optional Labs are called for you from already written python scripts (which you have access to, and can download to inspect). The first 3 weeks (and probably the rest of the course) will not teach you fundamentals on Python or mathematics or statistics, and some details regarding the choice of loss function for logistic regression were omitted. Furthermore, libraries such as scikit-learn were used to complement the material, but not explained in depth. (Granted, this course is not about Python libraries.) All in all this seems like a great introduction to ML for people already comfortable with mathematics and Python. If you already have the foundations required (Undergrad basic calculus, Python) you can do all 3 weeks in one day fairly easily without distractions.",
+        "date": "Jun 17, 2022"
+      },
+      {
+        "reviewer_name": "Adnan H M",
+        "rating": 3,
+        "review_text": "In general, I think it was a valuable course to take. I like the way Andrew tried to conveying the ideas intuitively to make sure the students understood the methods behind the learning algorithms. However, I would've loved if there was more in-depth treatment for the Math aspects of the obtained results. Also, the assignments + Optional labs were not as engaging as I hoped. What I mean by that is, it almost required no deep thought from our side to implement the procedures. In other words, there was a lot of skeleton code that makes you \"implement\" the algorithms with almost no thought (which I don't think is beneficial to the student's learning experience)",
+        "date": "Jun 25, 2022"
+      },
+      {
+        "reviewer_name": "Farhaan A",
+        "rating": 5,
+        "review_text": "The course was extremely beginner friendly and easy to follow, loved the curriculum, learned a lot about various ML algorithms like linear, and logistic regression, and was a great overall experience.",
+        "date": "May 25, 2023"
+      },
+      {
+        "reviewer_name": "Sascha H",
+        "rating": 3,
+        "review_text": "The quizes are too straight forward and simple. The code exercise too short as well. Also disappointed that vectorisation is introduced but cost and loss functions are still calculated in for loops.",
+        "date": "Jul 7, 2022"
+      },
+      {
+        "reviewer_name": "Ami D",
+        "rating": 5,
+        "review_text": "Amazingly delivered course! Very impressed. The concepts are communicated very clearly and concisely, making the course content very accessible to those without a maths or computer science background.",
+        "date": "Nov 24, 2022"
+      },
+      {
+        "reviewer_name": "ARNAV M",
+        "rating": 5,
+        "review_text": "It is the Best Course for Supervised Machine Learning! Andrew Ng Sir has been like always has such important & difficult concepts of Supervised ML with such ease and great examples, Just amazing!",
+        "date": "Jul 17, 2022"
+      },
+      {
+        "reviewer_name": "Alejandro D S g",
+        "rating": 3,
+        "review_text": "The course is good but once you cancel the subscription, you lose access to the codes. I think that should be change.",
+        "date": "Sep 2, 2022"
+      },
+      {
+        "reviewer_name": "Juan J B M",
+        "rating": 5,
+        "review_text": "Specacular course to learn the basics of ML. I was able to do it thanks to finnancial aid and I'm very grateful because this was really a great oportunity to learn. Looking forward to the next courses",
+        "date": "Sep 22, 2022"
+      },
+      {
+        "reviewer_name": "Mehul P",
+        "rating": 2,
+        "review_text": "Not a good course for beginners!!!! It should teach Python programming or have it as a prerequisite for the course. There should also be projects for the course",
+        "date": "Jul 5, 2023"
+      },
+      {
+        "reviewer_name": "Jamie H",
+        "rating": 5,
+        "review_text": "Excellent content. I'm a math guy so I would have enjoyed some more in-depth theory, but that's what books are for I suppose! I've been using Python for a long time now so understanding the code was nice and easy. Thank you for your hard work putting this together!",
+        "date": "Jun 17, 2022"
+      },
+      {
+        "reviewer_name": "Korrapat Y",
+        "rating": 5,
+        "review_text": "Professor Andrew can explain complex knowledge clearly. The Python lab can help learner to understand algorithm. The course is more valuable. I am excited to learn the next course for advanced ML.",
+        "date": "Sep 9, 2022"
+      },
+      {
+        "reviewer_name": "Muhammad F R",
+        "rating": 5,
+        "review_text": "Teaching is an art and Andrew Ng is a great artist. He explained everything in the course in the details and with examples easy to comprehend. Thanks a lot for helping thousands of students like me.",
+        "date": "Jan 31, 2023"
+      },
+      {
+        "reviewer_name": "Lucia D",
+        "rating": 3,
+        "review_text": "I have just finished the old machine learning course, and I'm doing this because I'm learning python/numpy/matplotlib. I thought the question during the course and quizzes insulted my intelligence. The material is great, but you need to improve the simple questions and quizzes. The first programming assignment was too easy, the second programming assignment was at a fair level. I still think more should be left to the student to do.",
+        "date": "Jul 22, 2022"
+      },
+      {
+        "reviewer_name": "Flavia B",
+        "rating": 3,
+        "review_text": "I feel like this course tries it's hardest, that everyone can follow it. But because of that it doesn't really dare to go deeper than just give an overview of machine learning. The tests are way too easy to pass with 100% and you can't really write your own algorithms afterwards. Also most of the examples are with one variable, so it's easier to follow, but it would be much more helpful, if we could see more complicated and real live examples.",
+        "date": "Oct 18, 2022"
+      },
+      {
+        "reviewer_name": "Tamara S",
+        "rating": 3,
+        "review_text": "First too easy and at the last assignment no chance to get help for weeks. I can't finish this course. I don't see any difference from the hints towards my programming lines but still it's not working so I can not finish.",
+        "date": "Feb 14, 2023"
+      },
+      {
+        "reviewer_name": "safia a k",
+        "rating": 4,
+        "review_text": "if labs were optional then why are there compulsory coding assignments, labs must not be optional, instead make us type code step by step, like MATLAB onramp courses.",
+        "date": "Aug 20, 2022"
+      },
+      {
+        "reviewer_name": "Deleted A",
+        "rating": 3,
+        "review_text": "You need to know Python, calculus and linear algebra for this course. I have a background in the last two, but never having used Python before, I'm unable to complete the final exam.",
+        "date": "Dec 1, 2022"
+      },
+      {
+        "reviewer_name": "Kyaw N W",
+        "rating": 5,
+        "review_text": "I started with onld ML course last year, completed successfuly but did not purchase the certificate. As I am more familiar with python than Octave, this new course make thing clearer for me.",
+        "date": "Jul 28, 2022"
+      },
+      {
+        "reviewer_name": "Lim J",
+        "rating": 5,
+        "review_text": "The explanation is clear, and all of the source codes provided in each jupyter notebook show a clear visualisation of how well the model learns or fits into the data when a parameter changes.",
+        "date": "Aug 16, 2022"
+      },
+      {
+        "reviewer_name": "Hourasadat M",
+        "rating": 3,
+        "review_text": "The class was full of mathematic. There were python code in labs but no explanation about python by instructor.",
+        "date": "Jan 6, 2023"
+      },
+      {
+        "reviewer_name": "Eshwar D",
+        "rating": 5,
+        "review_text": "Loved Andrew Ng's videos and the hands on Jupyter notebook labs! My understanding of ML has significantly improved thanks to this course and going on to the next course to complete ML specialization!!",
+        "date": "Apr 14, 2025"
+      },
+      {
+        "reviewer_name": "AMRIT S",
+        "rating": 5,
+        "review_text": "This is the best learning lesson to pave the path on AI engineering . Prof.Andrew NG is just wow and intelligent. The way he had taught every basic things with examples is the epitome to this course.",
+        "date": "Jul 28, 2024"
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "This course provided me with valuable insights into data analysis techniques and tools. Highly recommend!",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "The cybersecurity basics were well explained, making it easy for beginners to grasp.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Excellent overview of project management principles. The practical examples were very helpful.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Fantastic introduction to AI concepts. Clear and engaging content throughout the course.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "A must for anyone looking to understand digital marketing fundamentals.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Great resource for IT support training, covered essential topics thoroughly.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Well-structured UX design course with practical applications and tools.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Introductory course on prompting essentials was insightful, especially for AI beginners.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.9,
+        "review_text": "In-depth machine learning course with practical assignments that enhanced my understanding.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.6,
+        "review_text": "Good foundational knowledge for generative AI, suitable for newcomers.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Broad coverage of AI strategy issues and practical applications. Highly informative.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.7,
+        "review_text": "The advanced data analytics course helped refine my analytical skills significantly.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "This course provided a comprehensive introduction to data analytics. I learned various skills including data visualization and storytelling, which I could apply directly in my job.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "The Google Cybersecurity course was excellent! It covered essential topics and gave lots of practical insights. Highly recommend for anyone entering the field.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Fantastic course on project management! The instructors were knowledgeable and the content was very relevant to real-world applications.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "This specialization on AI essentials is a must for those who want to understand artificial intelligence concepts without getting too technical.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "The Digital Marketing & E-commerce course offered great insights into marketing strategies and tactics. I'm already seeing improvements in my campaigns!",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "Highly beneficial! The IT support course was well-paced and gave practical skills that are directly applicable to real-world scenarios.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "The UX Design course broke down the design process into easy-to-follow steps. I learned a lot about user-centered design principles.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "The Prompting Essentials course was very informative. I appreciated the focus on generative AI training techniques.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.9,
+        "review_text": "Machine Learning made easy! This course demystified complex topics and provided a solid foundation in ML frameworks.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.6,
+        "review_text": "The IBM Generative AI Engineering course was insightful. It covered a broad range of topics and had great hands-on components.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.8,
+        "review_text": "AI for Everyone provided a solid introduction to AI's impact on different industries. Very engaging and informative.",
+        "date": ""
+      },
+      {
+        "reviewer_name": "",
+        "rating": 4.7,
+        "review_text": "The Advanced Data Analytics course helped me refine my skills in data storytelling and visualization. Great for advancing my career!",
+        "date": ""
+      }
+    ]
+  }

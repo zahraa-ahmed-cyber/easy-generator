@@ -1,0 +1,38 @@
+2025-12-15 16:06:29 | Generation Error | Attempt 1/3 | Generated text too short (7 words, need 30) | Timestamp: 2025-12-15T16:06:29.008310
+2025-12-15 16:06:37 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: student_learner | Time: 1.10s | Reasons: Sentiment mismatch (sentiment: 0.18, expected: -0.50)
+Text: Took this course because I wanted to supplement my stats background with some machine learning know-how, but honestly, it was a letdown. The main issue was that it lacked hands-on practice, like in Mo...
+2025-12-15 16:08:06 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:08:06.775762
+2025-12-15 16:08:27 | Generation Error | Attempt 1/3 | Generated text too short (2 words, need 30) | Timestamp: 2025-12-15T16:08:27.836068
+2025-12-15 16:10:01 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:10:01.033272
+2025-12-15 16:10:18 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:10:18.027071
+2025-12-15 16:10:44 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: professional_upskiller | Time: 1.01s | Reasons: Sentiment mismatch (sentiment: 0.14, expected: -0.50)
+Text: Three months into this Mobile Development course, I hit a wall - the instructor's explanation of iOS development in Module 7 was vague, to say the least. Honestly, I was expecting more depth, especial...
+2025-12-15 16:11:27 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: student_learner | Time: 0.94s | Reasons: Sentiment mismatch (sentiment: 0.23, expected: -0.50)
+Text: Took this course because I wanted to supplement my CS degree with some practical web dev skills, but honestly, it was a letdown. The biggest issue for me was Module 5's coverage of JavaScript, which f...
+2025-12-15 16:11:43 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:11:43.578265
+2025-12-15 16:11:58 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: professional_upskiller | Time: 1.20s | Reasons: Sentiment mismatch (sentiment: 0.16, expected: -0.50)
+Text: Three months into this Web Development course, I hit a wall with Module 7 on advanced JavaScript - the instructor's explanation of async/await was unclear, and we didn't even touch on WebSockets or Gr...
+2025-12-15 16:12:23 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:12:23.103786
+2025-12-15 16:13:54 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:13:54.692825
+2025-12-15 16:14:21 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:14:21.784787
+2025-12-15 16:14:40 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:14:40.185324
+2025-12-15 16:14:56 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:14:56.726951
+2025-12-15 16:15:17 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: professional_upskiller | Time: 0.58s | Reasons: Sentiment mismatch (sentiment: 0.18, expected: -0.50)
+Text: Three months into this Design & Creative course, I hit a wall with Module 7 on UX design, which felt like a rehash of basics I'd already mastered in my 5-year career as a UI designer. Honestly, I was ...
+2025-12-15 16:17:28 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:17:28.266827
+2025-12-15 16:18:26 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:18:26.601614
+2025-12-15 16:18:58 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: student_learner | Time: 2.21s | Reasons: Sentiment mismatch (sentiment: 0.12, expected: -0.50)
+Text: Three months into this web development course, I hit a wall - the lack of clear explanations in Module 7 on JavaScript fundamentals was staggering. Honestly, I spent more time Googling concepts than a...
+2025-12-15 16:19:07 | Rejected Review | Model: gpt-oss-120b | Rating: 1⭐ | Persona: student_learner | Time: 0.81s | Reasons: Sentiment mismatch (sentiment: 0.12, expected: -0.50)
+Text: Honestly, I wasn't sure what to expect when I signed up for the “Advanced Marketing & Sales” track. I was a junior graphic designer trying to supplement my education, hoping the course would finally g...
+2025-12-15 16:19:08 | Rejected Review | Model: gpt-oss-120b | Rating: 1⭐ | Persona: professional_upskiller | Time: 1.06s | Reasons: Sentiment mismatch (sentiment: 0.17, expected: -0.50)
+Text: After three weeks of wrestling with the onboarding quiz, I realized the promised “mobile mastery” was more hype than help. In Module 2 we were supposed to deep‑dive into Kotlin Coroutines, but the 12‑...
+2025-12-15 16:19:11 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: hobbyist_enthusiast | Time: 0.71s | Reasons: Sentiment mismatch (sentiment: 0.29, expected: -0.50)
+Text: Three months into diving headfirst into Cloud Computing & DevOps, I hit a wall - literally, when I spent 2 hours on Module 5's AWS deployment section and still couldn't get it to work. Honestly, that'...
+2025-12-15 16:19:28 | Rejected Review | Model: llama-3.3-70b | Rating: 1⭐ | Persona: hobbyist_enthusiast | Time: 2.81s | Reasons: Sentiment mismatch (sentiment: 0.16, expected: -0.50)
+Text: Three months into this web development course, I hit a wall - literally, I was stuck on Module 4's JavaScript exercises for what felt like an eternity. Honestly, the instructor's explanation of closur...
+2025-12-15 16:19:47 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:19:47.747290
+2025-12-15 16:20:11 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:20:11.940200
+2025-12-15 16:20:23 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:20:23.564287
+2025-12-15 16:21:27 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:21:27.046874
+2025-12-15 16:22:48 | Generation Error | Attempt 1/3 | Message content is None | Timestamp: 2025-12-15T16:22:48.961889

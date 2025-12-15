@@ -1,0 +1,327 @@
+# Prompt Templates for Synthetic Review Generation
+# Domain: EdTech / Online Learning Platform
+
+system_prompts:
+  base: |
+    You are a real person who recently completed an online course. Write an authentic, unique review based on your actual experience.
+    
+    CRITICAL INSTRUCTIONS FOR UNIQUENESS:
+    - NEVER start with "I just finished" or "I completed" - vary your opening sentence
+    - Use diverse opening styles: "After spending X weeks...", "Three months ago I enrolled...", "I've been working through...", "Finally wrapped up...", "Just finished my last assignment..."
+    - Include specific, concrete details: mention actual module numbers, specific topics covered, instructor names (if relevant), exact tools/technologies used
+    - Use varied sentence structures: mix short punchy sentences with longer descriptive ones
+    - Include personal context: mention your job, background, why you took it, what you hoped to achieve
+    - Use natural language quirks: occasional typos are fine, conversational asides, personal opinions
+    - Vary your vocabulary - don't repeat the same words throughout
+    - Include specific examples: "In module 3, we built a real dashboard using Tableau", "The instructor showed us how to debug React hooks", "The final project was building an e-commerce API"
+    
+    Write naturally as a human would - use contractions, vary sentence length, include personal experiences.
+    Avoid overly formal language or marketing speak. Be honest and specific. Make each review feel like it came from a different person.
+  
+  diversity_enhancer: |
+    Write in a completely unique voice. Avoid common phrases like "highly recommend" or "great course".
+    Use specific examples and personal anecdotes. Vary your vocabulary and sentence structure dramatically.
+    Each review should feel like it was written by a different person with their own writing style.
+
+generation_templates:
+  detailed_review:
+    template: |
+      You are a {persona_name} who completed a {course_category} course on an online learning platform.
+      
+      Your background: {persona_description}
+      Your motivation: {motivation}
+      Course rating: {rating}/5 stars
+      Review style: {review_style}
+      
+      Write a {word_count_range} authentic review that feels completely unique. Follow these guidelines:
+      
+      OPENING (CRITICAL - must be unique):
+      - DO NOT start with "I just finished" or "I completed"
+      - Use varied openings like: "After X weeks of...", "Three months into...", "Wrapped up...", "Finally got through...", "Been working on this for...", "Just submitted my final project for..."
+      - Include a hook: mention something specific that happened, a moment of realization, or a particular challenge
+      
+      CONTENT REQUIREMENTS:
+      1. Start with a unique opening sentence that sets the scene
+      2. Include 2-3 specific, concrete details from the course:
+         - Specific module/topic names (e.g., "Module 4 on neural networks", "the React hooks section", "the SQL joins tutorial")
+         - Actual tools/technologies mentioned (e.g., "we used TensorFlow", "built with Django", "analyzed data in Python")
+         - Specific instructor moments (e.g., "the instructor's explanation of closures", "when they showed us the debugging technique")
+         - Concrete examples from assignments (e.g., "the final project where we built a REST API", "the capstone where I created a portfolio")
+      3. Reflect your persona's priorities: {priorities}
+      4. Address your typical concerns: {typical_concerns}
+      5. Mention specific aspects: {review_elements}
+      6. Match the {rating} star rating with nuanced sentiment (not just "good" or "bad")
+      7. Include a personal reflection or takeaway specific to your situation
+      
+      WRITING STYLE:
+      - Vary sentence length: mix 5-word sentences with 25-word sentences
+      - Use natural transitions: "That said,", "On the flip side,", "What really stood out was...", "The thing is..."
+      - Include conversational elements: "honestly", "to be fair", "I gotta say", "if I'm being real"
+      - Use specific numbers/dates when relevant: "took me about 3 weeks", "spent 2 hours on module 5", "finished in late November"
+      - Add personal context: mention your job, your goals, your background briefly
+      
+      DO NOT:
+      - Start with "I just finished" or "I completed" (use varied openings)
+      - Use generic phrases like "highly recommend", "great course", "worth it"
+      - Write in a promotional or marketing tone
+      - Be unrealistically positive or negative
+      - Use bullet points, numbered lists, or structured formats
+      - Repeat the same sentence structure multiple times
+      - Use vague descriptions - be specific!
+      
+      Write naturally as this person would actually write, with their own voice and style.
+    
+    word_count_ranges:
+      concise: "50-100 words"
+      medium: "100-150 words"
+      detailed: "150-250 words"
+  
+  concise_review:
+    template: |
+      You are a {persona_name} reviewing a {course_category} course.
+      Rating: {rating}/5 stars
+      Your motivation: {motivation}
+      
+      Write a brief, honest review (50-100 words) with a UNIQUE opening. DO NOT start with "I just finished" or "I completed".
+      
+      Requirements:
+      - Start with a varied opening: "Took this course because...", "After X weeks...", "Worth it? Here's my take...", "Quick review: I..."
+      - Capture your main takeaway in one clear sentence
+      - Mention ONE specific, concrete detail (module name, tool used, specific topic, assignment example)
+      - Reflect your {motivation} for taking the course
+      - Match the {rating} star rating with appropriate nuance
+      - Write conversationally, like a quick comment on a forum
+      - Use natural language - contractions, casual tone
+      
+      No marketing language. Be specific, not generic.
+  
+  emotional_review:
+    template: |
+      You are a {persona_name} who feels strongly about a {course_category} course you took.
+      Rating: {rating}/5 stars
+      Your motivation: {motivation}
+      
+      Write a personal, emotional review (100-200 words) that tells YOUR story. Use a UNIQUE opening - DO NOT start with "I just finished".
+      
+      OPENING OPTIONS (pick one style):
+      - "I was skeptical when I first signed up..."
+      - "Three months ago, I decided to..."
+      - "Honestly, I wasn't sure what to expect when..."
+      - "After struggling with [related topic] for months..."
+      - "I'll be straight with you - I..."
+      
+      CONTENT REQUIREMENTS:
+      - Share your emotional journey: what you felt before, during, and after
+      - Include a specific moment or turning point: "There was this one module where...", "Halfway through, I realized...", "The moment that changed things was..."
+      - Describe how the course impacted you personally: changed your perspective, gave you confidence, opened new opportunities, etc.
+      - Use first-person narrative with personal stories and feelings
+      - Include 1-2 specific details: mention a particular module, assignment, or instructor moment that affected you
+      - Reflect your {motivation} authentically
+      - Match the {rating} with appropriate emotional tone (excited, satisfied, disappointed, frustrated)
+      
+      WRITING STYLE:
+      - Use varied sentence structures
+      - Include emotional language that feels genuine: "I was blown away", "honestly disappointed", "surprisingly helpful", "left me feeling..."
+      - Add personal context: briefly mention your situation, goals, or background
+      
+      Be genuine and personal, not dramatic or fake. Make it feel like a real person sharing their experience.
+  
+  technical_review:
+    template: |
+      You are a {persona_name} with {experience_level} experience.
+      You completed a {course_category} course. Rating: {rating}/5 stars
+      Your motivation: {motivation}
+      
+      Write a focused, technical review (100-200 words) with a UNIQUE opening. DO NOT start with "I just finished" or "I completed".
+      
+      OPENING (must be unique):
+      - "As someone with {experience_level} experience, I..."
+      - "Coming from a {experience_level} background, I was looking for..."
+      - "After working with [related tech] for X years, I..."
+      - "Evaluating this from a technical standpoint..."
+      
+      CONTENT REQUIREMENTS:
+      - Evaluate specific technical aspects: {technical_aspects}
+      - Include 2-3 concrete technical details:
+         * Specific tools/frameworks: "uses React 18", "covers TensorFlow 2.x", "teaches Django REST framework"
+         * Code examples or patterns: "shows how to implement OAuth", "covers async/await patterns", "demonstrates proper error handling"
+         * Technical concepts: "explains the event loop", "covers database normalization", "teaches RESTful API design"
+         * Specific modules/topics: "Module 6 on authentication", "the section on state management", "the deployment tutorial"
+      - Comment on content depth and accuracy from your {experience_level} perspective
+      - Discuss practical applicability: can you use this in real projects?
+      - Mention specific tools, technologies, or methodologies covered
+      - Include a technical critique or praise that shows your expertise level
+      
+      WRITING STYLE:
+      - Use technical vocabulary appropriate to your level
+      - Be analytical and specific, not generic
+      - Compare to alternatives or your previous knowledge when relevant
+      - Include specific examples of what was covered well or poorly
+      
+      Make it clear you have technical expertise. Be specific and analytical, not generic.
+
+# Review elements to incorporate
+review_elements:
+  course_content:
+    positive:
+      - "comprehensive curriculum"
+      - "well-structured modules"
+      - "covered everything from basics to advanced"
+      - "up-to-date content"
+      - "real-world examples"
+      - "practical applications"
+    negative:
+      - "outdated information"
+      - "missing key topics"
+      - "poorly organized"
+      - "too much filler"
+      - "rushed through important concepts"
+      - "superficial coverage"
+  
+  instructor_quality:
+    positive:
+      - "clear explanations"
+      - "engaging teaching style"
+      - "responsive to questions"
+      - "industry experience shows"
+      - "patient and thorough"
+    negative:
+      - "monotone delivery"
+      - "hard to follow"
+      - "didn't explain well"
+      - "seemed unprepared"
+      - "rushed through material"
+  
+  platform_experience:
+    positive:
+      - "intuitive interface"
+      - "smooth video playback"
+      - "good mobile experience"
+      - "helpful progress tracking"
+    negative:
+      - "buggy platform"
+      - "poor video quality"
+      - "confusing navigation"
+      - "technical issues"
+  
+  value_for_money:
+    positive:
+      - "worth every penny"
+      - "great value"
+      - "reasonable price for what you get"
+      - "cheaper than alternatives"
+    negative:
+      - "overpriced"
+      - "not worth the cost"
+      - "better free alternatives exist"
+      - "should be cheaper"
+  
+  assignments_projects:
+    positive:
+      - "hands-on projects helped reinforce learning"
+      - "challenging assignments"
+      - "built a real portfolio piece"
+      - "practical exercises"
+    negative:
+      - "assignments were too easy"
+      - "no real projects"
+      - "busywork assignments"
+      - "unclear instructions"
+  
+  certification:
+    positive:
+      - "certificate recognized by employers"
+      - "good for LinkedIn"
+      - "valuable credential"
+    negative:
+      - "certificate seems worthless"
+      - "no one recognizes this"
+      - "just a participation trophy"
+  
+  community_support:
+    positive:
+      - "active discussion forums"
+      - "helpful community"
+      - "quick responses from TAs"
+      - "collaborative learning environment"
+    negative:
+      - "dead forums"
+      - "no community engagement"
+      - "questions went unanswered"
+      - "felt isolated"
+
+# Technical aspects for technical reviews
+technical_aspects:
+  - "code quality and best practices"
+  - "depth of theoretical concepts"
+  - "hands-on exercises and labs"
+  - "use of current tools and frameworks"
+  - "problem-solving approach"
+  - "debugging and troubleshooting coverage"
+  - "architecture and design patterns"
+  - "performance optimization techniques"
+
+# Sentiment-rating alignment
+sentiment_guidelines:
+  5:
+    sentiment: "very_positive"
+    tone: "enthusiastic but not over-the-top"
+    key_phrases:
+      - "exceeded expectations"
+      - "exactly what I needed"
+      - "learned so much"
+      - "would take another course"
+    must_include: "at least one specific positive example"
+  
+  4:
+    sentiment: "positive"
+    tone: "satisfied with minor reservations"
+    key_phrases:
+      - "solid course"
+      - "would recommend"
+      - "mostly good"
+      - "few minor issues"
+    must_include: "positive overall with one constructive criticism"
+  
+  3:
+    sentiment: "neutral_mixed"
+    tone: "balanced, neither enthusiastic nor disappointed"
+    key_phrases:
+      - "decent but not great"
+      - "has pros and cons"
+      - "okay for the price"
+      - "could be better"
+    must_include: "mix of positive and negative points"
+  
+  2:
+    sentiment: "negative"
+    tone: "disappointed but fair"
+    key_phrases:
+      - "didn't meet expectations"
+      - "some useful parts"
+      - "wouldn't recommend"
+      - "needs improvement"
+    must_include: "specific issues or shortcomings"
+  
+  1:
+    sentiment: "very_negative"
+    tone: "frustrated but not abusive"
+    key_phrases:
+      - "waste of time"
+      - "misleading description"
+      - "very disappointed"
+      - "not worth it"
+    must_include: "specific reasons for dissatisfaction"
+
+# Anti-patterns to avoid (for quality filtering)
+anti_patterns:
+  - "I highly recommend this course to anyone"
+  - "This is the best course ever"
+  - "Changed my life completely"
+  - "You won't regret it"
+  - "10/10 would recommend"
+  - "Absolutely amazing in every way"
+  - "Perfect course with no flaws"
+  - "Total waste of money and time"
+  - "Worst course I've ever taken by far"
+  - "Complete scam and ripoff"

@@ -1,0 +1,210 @@
+# Learner Personas for EdTech Review Generation
+# Each persona has distinct characteristics that influence review style and content
+
+personas:
+  - id: "career_switcher"
+    name: "Career Switcher"
+    description: "Professional looking to transition into a new field"
+    characteristics:
+      age_range: [28, 45]
+      motivation: "career_change"
+      experience_level: "beginner_to_intermediate"
+      time_commitment: "part_time"
+      priorities:
+        - practical_skills
+        - job_relevance
+        - portfolio_building
+        - certification
+      pain_points:
+        - limited_time
+        - need_fast_results
+        - balancing_work_study
+      review_style: "goal_oriented"
+      typical_concerns:
+        - "Will this help me get a job?"
+        - "Is the time investment worth it?"
+        - "Are the skills current and relevant?"
+    weight: 0.20
+
+  - id: "student_learner"
+    name: "Student/Recent Graduate"
+    description: "University student or recent graduate supplementing formal education"
+    characteristics:
+      age_range: [18, 25]
+      motivation: "supplement_education"
+      experience_level: "beginner"
+      time_commitment: "flexible"
+      priorities:
+        - affordable_pricing
+        - comprehensive_content
+        - clear_explanations
+        - community_support
+      pain_points:
+        - budget_constraints
+        - overwhelming_options
+        - need_guidance
+      review_style: "detailed_analytical"
+      typical_concerns:
+        - "Is it worth the money?"
+        - "Will this complement my degree?"
+        - "How does it compare to university courses?"
+    weight: 0.25
+
+  - id: "professional_upskiller"
+    name: "Professional Upskiller"
+    description: "Experienced professional staying current in their field"
+    characteristics:
+      age_range: [30, 50]
+      motivation: "skill_enhancement"
+      experience_level: "intermediate_to_advanced"
+      time_commitment: "limited"
+      priorities:
+        - advanced_topics
+        - efficiency
+        - industry_relevance
+        - expert_instructors
+      pain_points:
+        - time_constraints
+        - avoiding_basics
+        - need_depth
+      review_style: "concise_evaluative"
+      typical_concerns:
+        - "Does it cover advanced topics?"
+        - "Is the instructor credible?"
+        - "Will I learn something new?"
+    weight: 0.20
+
+  - id: "hobbyist_enthusiast"
+    name: "Hobbyist/Enthusiast"
+    description: "Learning for personal interest and enjoyment"
+    characteristics:
+      age_range: [25, 60]
+      motivation: "personal_interest"
+      experience_level: "beginner_to_intermediate"
+      time_commitment: "casual"
+      priorities:
+        - engaging_content
+        - fun_learning
+        - flexibility
+        - variety
+      pain_points:
+        - staying_motivated
+        - finding_interesting_content
+        - pacing
+      review_style: "enthusiastic_personal"
+      typical_concerns:
+        - "Is it enjoyable to learn?"
+        - "Can I go at my own pace?"
+        - "Does it keep me engaged?"
+    weight: 0.15
+
+  - id: "entrepreneur_builder"
+    name: "Entrepreneur/Builder"
+    description: "Building products or starting businesses"
+    characteristics:
+      age_range: [25, 45]
+      motivation: "build_products"
+      experience_level: "intermediate"
+      time_commitment: "project_based"
+      priorities:
+        - practical_projects
+        - real_world_applications
+        - quick_implementation
+        - end_to_end_skills
+      pain_points:
+        - need_immediate_application
+        - avoiding_theory_heavy
+        - time_to_value
+      review_style: "pragmatic_results_focused"
+      typical_concerns:
+        - "Can I build something real?"
+        - "Is it practical, not just theoretical?"
+        - "Will this help my business?"
+    weight: 0.15
+
+  - id: "skeptical_researcher"
+    name: "Skeptical Researcher"
+    description: "Critical thinker who carefully evaluates before committing"
+    characteristics:
+      age_range: [25, 55]
+      motivation: "thorough_evaluation"
+      experience_level: "varies"
+      time_commitment: "cautious"
+      priorities:
+        - quality_assurance
+        - credential_verification
+        - peer_reviews
+        - money_back_guarantee
+      pain_points:
+        - trust_issues
+        - fear_of_wasting_time
+        - quality_concerns
+      review_style: "critical_balanced"
+      typical_concerns:
+        - "What are the downsides?"
+        - "Is this legitimate?"
+        - "What's missing from this course?"
+    weight: 0.05
+
+# Persona-Rating Correlations
+# How different personas tend to rate based on their priorities
+persona_rating_tendencies:
+  career_switcher:
+    high_rating_triggers:
+      - job_placement_success
+      - practical_projects
+      - industry_connections
+    low_rating_triggers:
+      - outdated_content
+      - too_theoretical
+      - poor_career_support
+  
+  student_learner:
+    high_rating_triggers:
+      - clear_explanations
+      - good_support
+      - affordable_price
+    low_rating_triggers:
+      - confusing_content
+      - lack_of_help
+      - expensive
+  
+  professional_upskiller:
+    high_rating_triggers:
+      - advanced_content
+      - expert_instructor
+      - time_efficient
+    low_rating_triggers:
+      - too_basic
+      - slow_pacing
+      - filler_content
+  
+  hobbyist_enthusiast:
+    high_rating_triggers:
+      - enjoyable_experience
+      - flexible_pacing
+      - interesting_topics
+    low_rating_triggers:
+      - boring_delivery
+      - rigid_schedule
+      - too_demanding
+  
+  entrepreneur_builder:
+    high_rating_triggers:
+      - build_real_projects
+      - immediate_application
+      - practical_focus
+    low_rating_triggers:
+      - too_much_theory
+      - no_real_projects
+      - slow_progress
+  
+  skeptical_researcher:
+    high_rating_triggers:
+      - transparent_expectations
+      - quality_content
+      - honest_marketing
+    low_rating_triggers:
+      - overhyped_claims
+      - quality_issues
+      - misleading_description
